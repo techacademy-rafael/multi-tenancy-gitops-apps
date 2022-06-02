@@ -1,0 +1,10 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  name: github-barauth
+  namespace: tools
+spec:
+  type: barauth 
+  description: Authentication for GitHub
+  data: ewogICAgImF1dGhUeXBlIjoiQkFTSUNfQVVUSCIsCiAgICAiY3JlZGVudGlhbHMiOgogICAgewogICAgICAgICJ1c2VybmFtZSI6IiIsCiAgICAgICAgInBhc3N3b3JkIjoiIgogICAgfQp9
+  
